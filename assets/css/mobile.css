@@ -1,0 +1,22 @@
+/**
+ * BETELITE - Mobile-First Overrides & Bottom Sticky Tab Menus
+ */
+
+@media (max-w: 640px) {
+    .glass-card {
+        border-radius: 16px;
+        padding: 16px;
+    }
+    
+    .mobile-nav-sticky {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 999;
+        background: rgba(2, 6, 23, 0.9);
+        backdrop-filter: blur(12px);
+        border-top: 1px solid rgba(255, 255, 255, 0.08);
+        padding: 8px 16px;
+    }
+}

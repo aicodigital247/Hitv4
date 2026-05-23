@@ -1,0 +1,6 @@
+{
+  "name": "BETELITE",
+  "description": "BETELITE - Sports Prediction Marketplace & Live Match Center for cPanel Shared Hosting with Telegram Mini App Frontend. Includes complete interactive developer sandbox, database and PHP code exporter.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODAY - Telegram mini app</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background-color: #17212b;
+            color: #f5f6f7;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+        .tg-card {
+            background-color: #202b36;
+            border: 1px solid #2b394a;
+        }
+    </style>
+</head>
+<body class="p-3 min-h-screen">
+    <div class="flex items-center justify-between mb-4 pb-2 border-b border-gray-800">
+        <h1 class="text-sm font-bold uppercase tracking-wider text-sky-400">🔥 TODAY'S HOT TIPS</h1>
+        <span class="text-xs text-gray-400 font-mono">23 May 2026</span>
+    </div>
+
+    <!-- Live Predictions List -->
+    <div class="space-y-3">
+        <div class="tg-card p-3 rounded-xl">
+            <div class="flex justify-between items-center mb-2">
+                <span class="text-xs text-sky-400 font-bold">Football &bull; Serie A</span>
+                <span class="badge bg-amber-500/20 text-amber-400 border border-amber-500/30 text-3xs font-bold px-1.5 py-0.5 rounded">94% CONF</span>
+            </div>
+            <h4 class="font-bold text-sm mb-1">Inter Milan vs AC Milan</h4>
+            <div class="flex justify-between text-xs text-gray-400 pt-1 border-t border-gray-800 mt-2">
+                <span>Tip: <strong class="text-white font-bold">Over 2.5 Goals</strong></span>
+                <span class="font-mono text-sky-400 font-bold">Odds: 1.85</span>
+            </div>
+        </div>
+
+        <div class="tg-card p-3 rounded-xl">
+            <div class="flex justify-between items-center mb-2">
+                <span class="text-xs text-sky-400 font-bold">Football &bull; La Liga</span>
+                <span class="badge bg-red-500/20 text-red-400 border border-red-500/30 text-3xs font-bold px-1.5 py-0.5 rounded">HOT BUNDLE</span>
+            </div>
+            <h4 class="font-bold text-sm mb-1">Real Madrid vs Real Betis</h4>
+            <div class="flex justify-between text-xs text-gray-400 pt-1 border-t border-gray-800 mt-2">
+                <span>Tip: <strong class="text-white font-bold">Home Win Handicap</strong></span>
+                <span class="font-mono text-sky-400 font-bold">Odds: 2.10</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

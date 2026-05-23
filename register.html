@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"><title>TELEGRAM Mini App - Register</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background-color: #17212b; color: #f5f6f7; }
+        .tg-input { background: #202b36; border: 1px solid #2b394a; color: #fff; }
+    </style>
+</head>
+<body class="p-4 min-h-screen flex flex-col justify-center">
+    <div class="text-center mb-6">
+        <h2 class="text-lg font-bold">BET<span class="text-sky-400">ELITE</span></h2>
+        <p class="text-xs text-gray-400">Join the Elite Sports Predictive Ring</p>
+    </div>
+
+    <form class="space-y-4">
+        <div>
+            <label class="block text-2xs uppercase text-gray-400 font-bold mb-1">Username</label>
+            <input type="text" class="w-full tg-input text-sm p-3 rounded-xl focus:outline-none" placeholder="e.g. tipster">
+        </div>
+        <div>
+            <label class="block text-2xs uppercase text-gray-400 font-bold mb-1">Passphrase</label>
+            <input type="password" class="w-full tg-input text-sm p-3 rounded-xl focus:outline-none" placeholder="••••••••••••">
+        </div>
+        <button type="button" onclick="alert('Join successful!')" class="w-full bg-sky-500 text-white font-bold p-3 rounded-xl text-sm leading-normal shadow-lg">Create Telegram Handle</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,54 @@
+/**
+ * BETELITE - Master CSS Stylesheets
+ * Incorporates polished Glassmorphism surfaces and Deep Space Dark Slate styling
+ */
+
+:root {
+    --bg-universe: #020617;
+    --secondary-surface: #0f172a;
+    --glass-surface: rgba(17, 24, 39, .65);
+    --borders: #1e293b;
+    --electric-blue: #2563eb;
+    --cyan-accent: #06b6d4;
+    --success-greeen: #22c55e;
+    --gold-vip: #f59e0b;
+}
+
+body {
+    background-color: var(--bg-universe);
+    color: #f8fafc;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.glass-card {
+    background: var(--glass-surface);
+    backdrop-filter: blur(24px);
+    border: 1px solid rgba(255, 255, 255, .08);
+    box-shadow: 
+        0 8px 32px rgba(0, 0, 0, .35),
+        inset 0 1px 0 rgba(255, 255, 255, .05);
+    border-radius: 24px;
+}
+
+.glass-nav {
+    background: rgba(2, 6, 23, .85);
+    backdrop-filter: blur(20px);
+    border-top: 1px solid rgba(255, 255, 255, .06);
+}
+
+.glass-input {
+    background: rgba(255, 255, 255, .03);
+    border: 1px solid rgba(255, 255, 255, .06);
+    color: #fff;
+    border-radius: 12px;
+    padding: 10px 16px;
+    transition: all 0.25s ease;
+}
+
+.glass-input:focus {
+    background: rgba(255, 255, 255, .06);
+    border-color: var(--electric-blue);
+    outline: none;
+    box-shadow: 0 0 12px rgba(37, 99, 235, 0.25);
+}

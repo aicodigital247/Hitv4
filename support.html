@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"><title>TELEGRAM Mini App - Helpdesk</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background-color: #17212b; color: #f5f6f7; }
+        .tg-input { background: #202b36; border: 1px solid #2b394a; color: #fff; }
+    </style>
+</head>
+<body class="p-3 min-h-screen">
+    <h1 class="text-sm font-bold uppercase tracking-wider text-sky-400 mb-4 pb-2 border-b border-gray-800">💬 EXHAUSTIVE HELPDESK</h1>
+    
+    <form class="space-y-4">
+        <div>
+            <label class="block text-2xs uppercase text-gray-400 font-bold mb-1">State your grievance</label>
+            <textarea class="w-full tg-input text-xs p-3 rounded-xl focus:outline-none" rows="4" placeholder="How can the administrative operators help you?"></textarea>
+        </div>
+        <button type="button" onclick="alert('Ticket submitted successfully!')" class="w-full bg-sky-500 text-white font-bold p-2.5 rounded-xl text-xs leading-normal">Transmit Priority Support Ticket</button>
+    </form>
+</body>
+</html>
